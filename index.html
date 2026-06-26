@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Space Wave</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="game-ui">
+      <h1>Space Wave</h1>
+      <p>Use ↑ ↓ ou W S para desviar dos obstáculos</p>
+      <p id="score">Score: 0</p>
+      <p id="status">Pressione Espaço para iniciar o jogo</p>
+    </div>
+
+    <div id="startScreen" class="start-screen">
+      <div class="start-overlay">
+        <h2>SPACE WAVE</h2>
+        <p>Prepare-se para navegar pelo espaço neon</p>
+        <p class="start-hint">Clique para começar e entrar no jogo</p>
+      </div>
+    </div>
+
+    <div id="gameWrap" class="game-wrap">
+      <div id="gameBg" class="game-bg"></div>
+      <canvas id="gameCanvas" width="800" height="500"></canvas>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
